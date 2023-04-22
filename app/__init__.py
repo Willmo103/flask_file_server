@@ -8,7 +8,6 @@ import os
 def create_app():
 
     app = Flask(__name__)
-    UPLOAD_FOLDER = 'uploaded_files'
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
     if not os.path.exists(UPLOAD_FOLDER):

@@ -6,3 +6,5 @@
 !.dockerignore
 !Dockerfile
 !requirements.txt
+!*.html
+!static
