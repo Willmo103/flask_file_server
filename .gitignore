@@ -2,3 +2,7 @@
 !.gitignore
 !*.py
 !app
+!templates
+!.dockerignore
+!Dockerfile
+!requirements.txt
